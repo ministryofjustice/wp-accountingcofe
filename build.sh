@@ -11,6 +11,9 @@ set -e
 if [ -d ".git" ]
 then
 	git clean -xdf
+	cd web/app/themes/centreofexcellence
+  git clean -xdf
+  cd ../../../..
 fi
 
 # Add composer auth file
@@ -30,6 +33,17 @@ fi
 
 # Install PHP dependencies (WordPress, plugins, etc.)
 composer install
+
+# Build theme assets
+cd web/app/themes/centreofexcellence
+npm install -g bower gulp-cli && echo "{ \"allow_root\": true }" > /root/.bowerrc
+npm install && bower install
+gulp --production
+
+# Remove node_modules and bower_components to (drastically) reduce image size
+rm -Rf node_modules bower_components
+
+cd ../../../..
 
 # Remove composer auth.json
 rm -f auth.json
