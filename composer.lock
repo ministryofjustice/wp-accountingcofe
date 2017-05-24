@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c4df0a806b7caf94b2e6305c240b7d8",
+    "content-hash": "56773c2b9834436e38a170616ce70efc",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
@@ -485,16 +485,16 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9.6.2",
+            "version": "5.0.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.9.6.2"
+                "reference": "tags/5.0.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
-                "reference": "tags/4.9.6.2",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.0.0.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
