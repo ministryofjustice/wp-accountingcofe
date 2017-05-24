@@ -3,7 +3,8 @@ services:
   wordpress:
     build: .
     volumes:
-      - .:/bedrock
+#      - .:/bedrock
+      - ./web/app/uploads:/bedrock/web/app/uploads
     env_file: .env
     environment:
       WP_ENV: development

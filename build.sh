@@ -11,7 +11,7 @@ set -e
 if [ -d ".git" ]
 then
 	git clean -xdf
-	cd web/app/themes/centreofexcellence
+	cd web/app/themes/wp-centreofexcellence
   git clean -xdf
   cd ../../../..
 fi
@@ -35,7 +35,7 @@ fi
 composer install
 
 # Build theme assets
-cd web/app/themes/centreofexcellence
+cd web/app/themes/wp-centreofexcellence
 npm install -g bower gulp-cli && echo "{ \"allow_root\": true }" > /root/.bowerrc
 npm install && bower install
 gulp --production
