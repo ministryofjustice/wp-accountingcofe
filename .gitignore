@@ -1,3 +1,8 @@
+# editor
+.idea*
+*.sql
+
+
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
@@ -16,6 +21,7 @@ web/.htaccess
 .env
 .env.*
 !.env.example
+
 
 # Composer
 vendor/*
