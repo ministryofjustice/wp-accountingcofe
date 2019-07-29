@@ -1,6 +1,8 @@
 # editor
 .idea*
 *.sql
+.DS_*
+._DS_*
 
 
 # Application
@@ -11,7 +13,8 @@ web/app/upgrade
 web/app/languages
 web/app/uploads/*
 !web/app/uploads/.gitkeep
-web/app/themes/wp-centreofexcellence
+web/app/themes/accounting/dist
+web/app/themes/accounting/node_modules
 
 # WordPress
 web/wp
