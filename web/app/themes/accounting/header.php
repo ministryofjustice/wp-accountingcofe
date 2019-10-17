@@ -1,3 +1,4 @@
+<?php get_template_part('head'); ?>
 <div id="skiplink-container">
   <div>
     <a href="#content" class="skiplink">Skip to Content</a>
