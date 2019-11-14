@@ -44,14 +44,15 @@
     "php": ">=5.6",
     "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "*",
-    "koodimonni-language/core-en_gb": "*",
+    "johnpbloch/wordpress": "5.2.4",
+    "koodimonni-language/core-en_gb": "5.2.4",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "acf/advanced-custom-fields-pro": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/classic-editor": "*",
     "ministryofjustice/wp-rewrite-media-to-s3": "^0.1.0",
+    "ministryofjustice/wp-user-roles": "*",
     "ministryofjustice/wp-moj-components": "*",
     "ministryofjustice/cookie-compliance-for-wordpress": "*"
 
@@ -61,7 +62,10 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin",
+        "ministryofjustice/wp-user-roles"
+      ],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
