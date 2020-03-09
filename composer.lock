@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3e0adf96102625d1a0a7f88c5cf9100",
+    "content-hash": "57cf2a1457fd5646ec22112d4ac9f924",
     "packages": [
         {
             "name": "acf/advanced-custom-fields-pro",
@@ -687,6 +687,24 @@
             "time": "2019-01-29T11:11:52+00:00"
         },
         {
+            "name": "wpackagist-plugin/analytify-analytics-dashboard-widget",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/analytify-analytics-dashboard-widget/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/analytify-analytics-dashboard-widget.1.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/analytify-analytics-dashboard-widget/"
+        },
+        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "1.5",
             "source": {
@@ -705,22 +723,22 @@
             "homepage": "https://wordpress.org/plugins/classic-editor/"
         },
         {
-            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "6.0.1",
+            "name": "wpackagist-plugin/wp-analytify",
+            "version": "3.0.0",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/6.0.1"
+                "url": "https://plugins.svn.wordpress.org/wp-analytify/",
+                "reference": "tags/3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.6.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-analytify.3.0.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
+            "homepage": "https://wordpress.org/plugins/wp-analytify/"
         }
     ],
     "packages-dev": [
@@ -809,7 +827,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6"
+        "php": ">=7.1"
     },
     "platform-dev": []
 }
