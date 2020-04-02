@@ -1,3 +1,5 @@
+This site has been permanently decommissioned by the JOTW team, as of 02/04/2020.
+
 # Accounting Centre of Excellence 
 
 Wordpress theme.
